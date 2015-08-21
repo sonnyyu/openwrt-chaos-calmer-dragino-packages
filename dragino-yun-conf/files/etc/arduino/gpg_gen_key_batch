@@ -1,6 +1,6 @@
 %echo Generating a standard key
 Key-Type: RSA
-Name-Real: Arduino LLC
+Name-Real: Dragino
 Name-Email: support@arduino.cc
 %pubring /etc/arduino/arduino_gpg.pub
 %secring /etc/arduino/arduino_gpg.sec
