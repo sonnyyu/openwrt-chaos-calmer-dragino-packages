@@ -17,7 +17,7 @@ define Package/dragino-yun-conf
   SECTION:=utils
   CATEGORY:=Base system
   TITLE:=Custom Dragino Yun configurations
-  DEPENDS:=+avahi-daemon +base-files +triggerhappy
+  DEPENDS:=+avahi-nodbus-daemon +base-files +triggerhappy
 endef
 
 define Package/dragino-yun-conf/conffiles
